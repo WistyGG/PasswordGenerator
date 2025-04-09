@@ -6,12 +6,13 @@ import time
 import os
 import sys
 
+#This bit just makes sure that the icon image is there, otherwise if it is not then the program will not run (Chatgpt made this bit not me)
 def resource_path(relative_path):
     try:
-        # PyInstaller creates a temp folder and stores the path in _MEIPASS
+
         base_path = sys._MEIPASS
     except Exception:
-        # Fallback to the current directory if not bundled
+
         base_path = os.path.abspath(".")
 
     return os.path.join(base_path, relative_path)
@@ -39,8 +40,8 @@ def copyToClipboard(text):
     passwordWindow.after(1000, close_window())
 
 def close_window():
-    passwordWindow.quit()   # Stop the Tkinter main loop
-    passwordWindow.destroy()  # Destroy the window (closes it)
+    passwordWindow.quit()
+    passwordWindow.destroy()
 
 def on_progress_complete():
     tk.destroy()
