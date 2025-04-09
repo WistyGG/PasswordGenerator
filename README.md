@@ -10,3 +10,10 @@ I made this for fun and decided to upload to Github
 ## Installation
 
 1. To install download the exe file and running will open the password generator!
+
+
+## Download the Application
+
+You can download the latest version of the application here:
+
+[Download the EXE file](https://github.com/WistyGG/PasswordGenerator/releases/tag/v1.0.0)
