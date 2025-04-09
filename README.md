@@ -1,3 +1,5 @@
+
+
 # Tkinter App
 
 A simple Tkinter Password Generator application built using Python.
@@ -17,3 +19,5 @@ I made this for fun and decided to upload to Github
 You can download the latest version of the application here:
 
 [Download the EXE file](https://github.com/WistyGG/PasswordGenerator/releases/tag/v1.0.0)
+
+![App Icon](appicon.ico)
