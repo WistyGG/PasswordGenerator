@@ -1,0 +1,23 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore PyInstaller build files
+build/
+dist/
+main.spec
+
+# Ignore IDE-specific files (for PyCharm in this case)
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files (e.g., macOS .DS_Store, Windows Thumbs.db)
+.DS_Store
+Thumbs.db
